@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadin C's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="#intro" class="nav-logo">Nadin C</a>
+            <ul class="nav-links">
+                <li><a href="#intro">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header and About Section -->
+    <section id="intro" class="section intro">
+        <div class="intro-content">
+            <div class="intro-left">
+                <img src="profile.jpg" alt="Profile Image" class="profile-img">
+            </div>
+            <div class="intro-right">
+                <h1>Nadin C</h1>
+                <p>Full Stack Developer</p>
+                <p class="tagline">Crafting digital experiences with code and creativity</p>
+                <p>Hello! I'm Nadin, a dedicated Full Stack Developer with a knack for building robust applications and
+                    user-friendly websites. I'm always eager to learn and implement new technologies in my projects.</p>
+
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/nadin_c" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/nadin-c" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+
+                <a href="#contact" class="cta-button">Reach Out</a>
+                <a href="Nadin_C_Resume.pdf" class="resume-link" download>Download My Resume</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skills-column">
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-angular"></i>
+                        <span>Angular</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <div class="skill-item">
+                        <i class="fas fa-database"></i>
+                        <span>SQL</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-cloud"></i>
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code-branch"></i>
+                        <span>CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <!-- Project Cards -->
+                <div class="project-card">
+                    <img src="sap-point-calculator.png" alt="SAP Point Calculator">
+                    <h3>SAP Point Calculator</h3>
+                    <p>A web application that allows students and staff to manage student activity points. This project
+                        won 1st
+                        prize in a college-level 36-hour hackathon.</p>
+                    <p><strong>Technologies Used:</strong> HTML, CSS, Bootstrap, JavaScript, Node.js, Express</p>
+                    <a href="https://github.com/sanjai4334/SAP-Point-Calculator-Student-Portal" target="_blank"
+                        class="btn">View
+                        on GitHub</a>
+                </div>
+                <div class="project-card">
+                    <img src="qrcode-generator.png" alt="QR Code Generator">
+                    <h3>QR Code Generator</h3>
+                    <p>A web application that generates customizable QR codes based on user input. Users can enter text,
+                        URLs, and other data to create a unique QR code, which can be downloaded in various formats.</p>
+                    <p><strong>Technologies Used:</strong> React.js, HTML, CSS</p>
+                    <a href="https://github.com/nadin-c/qrcode-generator" target="_blank" class="btn">View on GitHub</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Data Download Duplication Alert System</h3>
+                    <p>An application that alerts users if they try to download a file that already exists in the system
+                        or on the
+                        network. Submitted for the Smart India Hackathon.</p>
+                    <p><strong>Technologies Used:</strong> Python, JavaScript</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="section-content">
+            <h2>Achievements</h2>
+            <ul class="achievements-list">
+                <li><strong>Winner</strong> of the National-Level Coding Competition for the project <em>Health
+                        Tracker</em>.</li>
+                <li><strong>Finalist</strong> in the Data Science Challenge for the project <em>Data Analysis
+                        Platform</em>.</li>
+                <li><strong>Best Innovator</strong> Award at the State-Level IoT Hackathon for the project <em>Smart
+                        Home System</em>.</li>
+                <li><strong>Top Performer</strong> in the Full Stack Development Bootcamp.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2>Contact</h2>
+            <form action="" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>Email: <a href="mailto:nadin.c@example.com">nadin.c@example.com</a></p>
+            <div class="social-icons">
+                <a href="https://github.com/nadin-c" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/nadin_c" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <p class="copyright">&copy; 2024 Nadin C. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript for sticky navbar
+        window.onscroll = function () { stickyNavbar(); highlightNavbar(); };
+
+        var navbar = document.querySelector(".navbar");
+        var sticky = navbar.offsetTop;
+
+        function stickyNavbar() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+        function highlightNavbar() {
+            var sections = document.querySelectorAll(".section");
+            var navLinks = document.querySelectorAll(".nav-links a");
+
+            sections.forEach((section, index) => {
+                var top = section.offsetTop - 100;
+                var bottom = top + section.offsetHeight;
+
+                if (window.pageYOffset >= top && window.pageYOffset < bottom) {
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    navLinks[index].classList.add('active');
+                }
+            });
+        }
+
+        // Call the function on page load
+        highlightNavbar();
+    </script>
+
+</body>
+
+</html>

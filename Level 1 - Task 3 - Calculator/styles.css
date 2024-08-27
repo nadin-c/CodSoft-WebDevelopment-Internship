@@ -1,0 +1,107 @@
+/* styles.css */
+
+/* General reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+/* Calculator container styling */
+.calculator {
+    width: 350px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffffff;
+    padding: 20px;
+}
+
+/* Display container styling */
+.display-container {
+    margin-bottom: 20px;
+}
+
+#display {
+    width: 100%;
+    height: 70px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    text-align: right;
+    padding: 15px;
+    font-size: 2em;
+    box-shadow: inset 4px 4px 8px #d1d1d1, inset -4px -4px 8px #ffffff;
+    color: #333;
+    outline: none;
+}
+
+/* Button grid styling */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+/* Button styling */
+.btn {
+    height: 65px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 6px #bcbcbc, -3px -3px 6px #ffffff;
+    color: #333;
+}
+
+.number-btn {
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+}
+
+.operator-btn {
+    background: linear-gradient(145deg, #f7b733, #ffcc33);
+    color: #ffffff;
+}
+
+.function-btn {
+    background: linear-gradient(145deg, #ff5e5e, #ff1e1e);
+    color: #ffffff;
+}
+
+.equals-btn {
+    background: linear-gradient(145deg, #2d8bff, #1c6aff);
+    color: #ffffff;
+    grid-column: span 2;
+}
+
+/* Button hover and active states */
+.btn:hover {
+    box-shadow: inset 3px 3px 6px #bcbcbc, inset -3px -3px 6px #ffffff;
+}
+
+.operator-btn:hover {
+    background: linear-gradient(145deg, #ffcc33, #f7b733);
+}
+
+.function-btn:hover {
+    background: linear-gradient(145deg, #ff1e1e, #ff5e5e);
+}
+
+.equals-btn:hover {
+    background: linear-gradient(145deg, #1c6aff, #2d8bff);
+}
+
+.btn:active {
+    box-shadow: inset 3px 3px 6px #bcbcbc, inset -3px -3px 6px #ffffff;
+    transform: scale(0.98);
+}
